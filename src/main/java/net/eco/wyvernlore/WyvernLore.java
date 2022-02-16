@@ -1,6 +1,7 @@
 package net.eco.wyvernlore;
 
-import net.eco.wyvernlore.item.ModItems;
+import net.eco.wyvernlore.block.WLBlocks;
+import net.eco.wyvernlore.item.WLItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,7 +21,8 @@ public class WyvernLore
     public WyvernLore() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
+        WLItems.register(eventBus);
+        WLBlocks.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }

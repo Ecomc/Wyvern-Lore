@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textires": {
+    "all": "wyvernlore:block/corruptian_deposit"
+  }
+}

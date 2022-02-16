@@ -2,6 +2,11 @@
 
   "item.wyvernlore.test_item": "Test Item",
 
+  "item.wyvernlore.corruptian": "Corruptian",
+  "item.wyvernlore.verdum": "Verdum",
+
+  "block.wyvernlore.corruptian_deposit": "Corruptian Deposit",
+
   "itemGroup.wlOres": "WL: Ores"
 
 }
