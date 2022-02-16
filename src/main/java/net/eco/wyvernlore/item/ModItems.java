@@ -20,7 +20,8 @@ public class ModItems {
     //Ores
     public static final RegistryObject<Item> CORRUPTIA = ITEMS.register("corruptia",
             () -> new Item(new Item.Properties().tab(ModItemsTab.WL_ORES)));
-
+    public static final RegistryObject<Item> VERDUM = ITEMS.register("verdum",
+            () -> new Item(new Item.Properties().tab(ModItemsTab.WL_ORES)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
