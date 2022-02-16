@@ -1,3 +1,7 @@
 {
-  "item.wyvernlore.test_item": "Test Item"
+
+  "item.wyvernlore.test_item": "Test Item",
+
+  "itemGroup.wlOres": "WL: Ores"
+
 }
